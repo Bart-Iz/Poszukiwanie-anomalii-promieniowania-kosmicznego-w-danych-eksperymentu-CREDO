@@ -1,8 +1,6 @@
 # ============================================
 # Importy i ustawienia równoległości / narzędzia
 # ============================================
-from config_paths import REPO_ROOT, RESULTS_DIR
-
 import os
 import math
 import shutil
@@ -18,6 +16,8 @@ from datetime import datetime
 import itertools
 from typing import List, Tuple, Dict
 from concurrent.futures import ProcessPoolExecutor, as_completed
+
+from config_paths import REPO_ROOT, RESULTS_DIR
 
 
 # ============================================================
