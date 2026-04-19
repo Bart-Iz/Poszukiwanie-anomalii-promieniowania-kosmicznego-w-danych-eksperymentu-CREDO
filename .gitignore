@@ -1,0 +1,52 @@
+# Inne katalogi w workspace (nie ten projekt)
+magisterka*/
+od Sławka/
+
+# Środowisko
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+
+# Skrypty pomocnicze spoza pipeline (lokalne)
+check_lines.py
+cleaning.py
+data_selection.py
+read_ping_write.py
+read_save_big_file.py
+run_all.py
+test.py
+second clean.py
+
+# Duże dane wejściowe
+pliki_csv/*.csv
+
+# Wyniki uruchomień
+results/
+wyniki/
+wyniki_poisson/
+wyniki_non_poisson/
+anomalies/
+wybrane_okna/
+
+# Modele i wykresy treningowe
+final_code/AI/best_model.pth
+final_code/AI/best_model*.pth
+final_code/AI/*.png
+final_code/*.png
+final_code/*.pth
+final_code/desktop.ini
+final_code/raport_area_filter.txt
+
+final_code/AI/False/
+final_code/AI/True/
+
+# Pliki tymczasowe z analizy
+*.tmp
+first_day.png
+first_day_factors_per_device.csv
+per_device_24h_windows.csv
+filters_summary.csv
+for_map.csv
+wynik_overlay.png
